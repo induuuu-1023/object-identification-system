@@ -1,0 +1,17 @@
+﻿# Python cache
+__pycache__/
+
+
+# Virtual environment
+venv/
+
+# Weights
+weights/
+yolo11n.pt
+
+# Training results
+runs/
+*.log
+
+mycoco/
+*.pt

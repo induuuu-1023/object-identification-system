@@ -1,0 +1,45 @@
+# Path to dataset
+path: D:/item_detection_system/datasets/openimages
+
+# Train/val folders
+train: images/train/merged   # images from original + elderly train
+val:   images/val/merged     # images from original + elderly val
+
+# Number of classes
+nc: 33  # 31 original + 2 elderly classes
+
+# Class names
+names:
+  0: person
+  1: car
+  2: chair
+  3: bottle
+  4: laptop
+  5: cup
+  6: plate
+  7: bowl
+  8: mobile phone
+  9: television
+  10: keyboard
+  11: mouse
+  12: book
+  13: clock
+  14: backpack
+  15: handbag
+  16: suitcase
+  17: shoe
+  18: hat
+  19: helmet
+  20: traffic light
+  21: traffic sign
+  22: tree
+  23: flower
+  24: umbrella
+  25: refrigerator
+  26: microwave oven
+  27: sink
+  28: toilet
+  29: wallet
+  30: knife
+  31: Wheelchair
+  32: Crutch
